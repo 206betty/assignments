@@ -7,3 +7,6 @@ var shopper = {
 }
 
 console.log(shopper.shoppingCart[1])
+
+
+

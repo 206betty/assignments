@@ -1,0 +1,26 @@
+h1 {
+    display: block; width: 50%;
+    font-family: arial;
+    font-size: 30px;
+    color: limegreen
+}
+
+img {
+    display: inline-block;
+    height: 200px;
+}
+
+h2 {
+    font-family: Arial;
+    color: magenta;
+}
+
+p {
+    display: inline-block; width: 50%;
+    font-family: arial;
+    border: 2px solid coral;
+}
+
+
+
+
