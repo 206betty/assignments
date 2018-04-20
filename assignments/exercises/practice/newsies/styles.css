@@ -1,4 +1,4 @@
-h1 {
+header {
     display: block; width: 50%;
     font-family: arial;
     font-size: 30px;
@@ -10,17 +10,15 @@ img {
     height: 200px;
 }
 
-h2 {
-    font-family: Arial;
-    color: magenta;
-}
-
-p {
+section {
     display: inline-block; width: 50%;
     font-family: arial;
     border: 2px solid coral;
 }
 
-
+footer {
+    font-family: arial;
+    font-style: italic
+}
 
 
