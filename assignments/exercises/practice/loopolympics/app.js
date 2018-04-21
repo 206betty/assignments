@@ -6,9 +6,14 @@ for (var i = 9; i>= 0; i--) {
     console.log(i)
 }
 
-var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"]{
-}
+var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"]
 
 for (var i = 0; i < fruit.length; 1+2) {
     console.log(fruit[i])
+}
+
+var people = ["Cody", "Betty", "Marit", "Dave"]
+
+for (var i = 0; i < people.length; i++) {
+    console.log(people[i])
 }

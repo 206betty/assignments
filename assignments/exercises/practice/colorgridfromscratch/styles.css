@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box; 
+}
+
+.topgrid {
+    background-color: #F5C6D6;
+    width: 100%;
+    height: 100px;
+}
+
+.secondgrid {
+    background-color: #EE2E84;
+}
+
+.thridgrid {
+    background-color: #85CFD8;
+}
+
+.fourthgrid {
+    background-color: #8DC63F;
+}
+
+.singlegrid {
+    background-color: #E76E34
+}
+
