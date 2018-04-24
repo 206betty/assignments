@@ -1,0 +1,160 @@
+.flag {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    display: block;
+    border: 2px solid black;
+    margin: 5px auto;
+}
+
+#blue {
+    background-color: rgba(34, 34, 175, 0.692);
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    left: 0px;
+}
+
+#white {
+    background-color: white;
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    left: 200px;
+}
+
+#red {
+    background-color: red;
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    left: 400px;
+}
+
+#gerblack {
+    background-color: black;
+    width: 600px;
+    height: 33.3%;
+    position: absolute;
+    top: 0;
+}
+
+#gerred {
+    background-color: rgb(151, 8, 8);
+    width: 600px;
+    height: 33.3%;
+    position: absolute;
+    top: 116px;
+}
+
+#geryellow {
+    background-color: rgb(196, 178, 17);
+    width: 600px;
+    height: 33.3%;
+    position: absolute;
+    bottom: 0;
+}
+#madwhiite {
+    background-color: rgb(255, 255,255);
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+}
+#madred {
+    background-color: rgb(220, 72, 57);
+    width: 350px;
+    height: 50%;
+    position: absolute;
+    right:0;
+}
+#madgreen {
+    background-color: rgb(54, 125, 63);
+    width: 350px;
+    height: 50%;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+#swissred {
+    background-color: rgb(181, 55, 40);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#swisswhite {
+    background-color: white;
+    height: 80px;
+    width: 350px;
+    position: relative;
+    top: 38%;
+    left: 22%;
+}
+#swisswhite2 {
+    background-color: white;
+    height: 300px;
+    width: 90px;
+    position: relative;
+    bottom: 18%;
+    left: 42%;
+}
+#blueswed {
+    background-color: rgb(42, 105, 162);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#yellowswed {
+    background-color: rgb(246, 204, 70);
+    position: relative;
+    width: 100%;
+    height: 95px;
+    top: 40%;
+}
+#yellowswed2 {
+    background-color: rgb(246, 204, 70);
+    position: relative;
+    width: 100px;
+    height: 100%;
+    left: 43%;
+    bottom: 28%;
+}
+#gamred {
+    background-color: rgb(190, 44, 47);
+    width: 600px;
+    height: 33.3%;
+    position: absolute;
+    top: 0;
+}
+#gamwhite {
+    background-color: white;
+    width: 600px;
+    height: 33.3%;
+    position: absolute;
+    top: 116px;
+}
+#gamgreen {
+    background-color: rgb(74, 117, 54);
+    width: 600px;
+    height: 33.3%;
+    position: absolute;
+    bottom: 0;
+}
+#gamblue {
+    background-color: rgb(10, 31, 134);
+    width: 600px;
+    height: 22%;
+    position: relative;
+    top: 134px;
+    bottom: 100px;
+}
+#tred {
+    background-color: rgb(177, 36, 24);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#twhite {
+    background-color: white;
+    
+}

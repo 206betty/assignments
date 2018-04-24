@@ -1,0 +1,33 @@
+#navbar {
+    height: 80px;
+    width: 100%;
+    background-color: magenta;
+    position: fixed;
+    top: 0;
+}
+
+#tiptop {
+    height: 100px;
+}
+
+p {
+    font-family: Arial;
+
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#partone {
+    background-color: gray;
+    height: 300px;
+    width: 100%;;
+}
+
+#parttwo {
+    background-color: limegreen;
+    height: 360px;
+    width: 100%;;
+}
