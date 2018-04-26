@@ -2,7 +2,7 @@
     text-align: center;
     background-color: yellowgreen;
     width: 100%;
-    height: 150px;
+    height: 130px;
 }
 html {
     background-color: rebeccapurple;
@@ -20,63 +20,95 @@ p {
     font-family: impact;
     font-size: 15px;
 }
-#tagline {
-    font-size: 20px;
-    font-style: italic
+#total {
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 400px;
+    font-family: impact;
+    font-size: 30px;
+    top: 720px;
+    margin-bottom: 60px;
+}
+#biguns {
+    font-family: impact;
+    font-size: 50px;
+    font-style: bold;
+    position: absolute;
+    top: 750px;
+    left: 700px;
 }
 #pics {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: teal;
     top: 60px;
     position: relative;
 }
 #gphoto {
-    height: 313px;
-    width: 313px;
+    height: 280px;
+    width: 280px;
     display: inline-block;
-    padding-top: 35px;
+    padding-top: 10px;
     position: absolute;
     left: 5%;
 }
 #bphoto {
-    height: 313px;
-    width: 313px;
+    height: 280px;
+    width: 280px;
     display: inline-block;
-    padding-top: 35px;
+    padding-top: 10px;
     position: absolute;
     left: 40%;
 }
 #cphoto {
-    height: 313px;
-    width: 313px;
+    height: 280px;
+    width: 280px;
     display: inline-block;
-    padding-top: 35px;
+    padding-top: 10px;
     position: absolute;
     right: 5%;
 }
 .goombashome {
-    height: 200px;
+    height: 180px;
     width: 200px;
     background-color: yellowgreen;
     position: absolute;
-    left: 10%;
+    top: 520px;
+    left: 9%;
     text-align: center;
 }
+#ghowmany {
+    font-style: bold;
+    font-size: 15px;
+    font
+}
+#bhowmany {
+    font-style: bold;
+    font-size: 15px;
+}
+#chowmany {
+    font-style: bold;
+    font-size: 15px;
+    font-family: impact;
+}
 .bob-omshome {
-    height: 200px;
+    height: 180px;
     width: 200px;
     background-color: yellowgreen;
     position: absolute;
-    left: 45%;
+    top: 520px;
+    left: 43%;
     text-align: center;
 }
 .cheep-cheephome {
-    height: 200px;
+    height: 180px;
     width: 200px;
     background-color: yellowgreen;
     position: absolute;
-    right: 10%;
+    top: 520px;
+    right: 8%;
     text-align: center;
 }
 .myfoot {

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mario Pest Control</title>
+    <title id="mario">Pest Control</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<form name="baddies">
     <div id="title">
-    <h1>Mario Pest Control</h1>
+        <h1>Mario Pest Control</h1>
     </div>
     <div id="pics">
         <img id="gphoto" src=https://i.kinja-img.com/gawker-media/image/upload/s--y3zZGoi---/c_scale,fl_progressive,q_80,w_800/1462512488721930125.png>
@@ -18,27 +19,23 @@
    </div>
    <div class="goombashome">
         <h2 id="goom">Goombas</h2>
-        <form name="goombas">
-            <input type="number" name="gcost">
-            <input type="number" name="gtotal">
-            <input type="number" name="gsum">
-        </form>
+        <h2>5 Coins Each</h2>
+        <input name="g1" id="ghowmany" type="number"/>
     </div>
     <div class="bob-omshome">
         <h2 id="bob">Bob-ombs</h2>
-        <form name="bob-oms">
-            <input type="number" name="bcost">
-            <input type="number" name="btotal">
-            <input type="number" name="bsum">
-        </form>
+        <h2>7 Coins Each</h2>
+        <input name="b1" id="bhowmany" type="number"/>
     </div>
     <div class="cheep-cheephome">
         <h2 id="cheep">Cheep-cheep</h2>
-        <form name="cheep-cheep">
-            <input type="number" name="ccost">
-            <input type="number" name="ctotal">
-            <input type="number" name="csum">
-        </form>
+        <h2>11 Coins Each</h2>
+        <input name="c1" id="chowmany" type="number"/>
+    </div>
+        <button id="total">Submit Total</button>
+    </div>
+    <div id="biguns">
+        <p>Peach! You owe me:</p>
     </div>
     <div class="myfoot">
     <footer>
@@ -46,7 +43,8 @@
         <p class="address">4444 Coin Heavy Drive Seattle, WA</p>
         <a class="web" href="https://www.mariopestcontrol.com/html/">Visit our website</a>
     </footer>
-    </div>    
+    </div>
+</form>    
 <script src=app.js></script>
 </body>
 </html>
