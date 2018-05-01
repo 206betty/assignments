@@ -1,12 +1,13 @@
 html {
     background-color: rgb(146, 213, 206);
 }
-#headline {
+.headline {
+    display: flex;
     background-color: linen;
     font-family: 'Courier New', Courier, monospace;
     font-size: 70px;
     height: 70px;
-    text-align: center
+    justify-content: center;
 }
 .clicks { 
     display: flex;
@@ -24,7 +25,43 @@ html {
 }
 .pics {
     display: flex;
-    justify-content: center;
-    background-color: linen
+    justify-content: space-around;
+    background-color: linen;
+    height: 400px;
+}
+.words {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    text-align: center
+}
+#lady {
+    width: 400px;
+    height: 300px;
+    margin: 50px;
+}
+#pillows {
+    width: 400px;
+    height: 300px;
+    margin: 50px
+}
+.footer {
+position: fixed;
+background-color: rgb(146, 213, 206);
+font-family: 'Courier New', Courier, monospace;
+font-style: bold;
+width: 100%;
+height: 50px;
+bottom: 0;
+}
+#address {
+    position: absolute;
+    display: inline-block;
+    left: 150px;
+}
+#email {
+    display: inline-block;
+    position: absolute;
+    right: 250px;
+    margin-top: 15px;
 }
 
