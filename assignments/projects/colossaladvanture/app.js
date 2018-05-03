@@ -1,11 +1,11 @@
 var ask = require("readline-sync");
-console.log("I like Afros!")
+console.log("Do you love Afros!")
 
-var name = ask.question ("What is your name?");
+var name = ask.question ("What's your name?");
 
-var walk = ask.keyIn(`${name} blah blah blah , hit w to walk`, {limit: "w"});
+var walk = ask.keyIn(`${name}, you could rock a great Afro!, Hit w to walk`, {limit: "w"});
 
-Math.random()
+(Math.random()
 
 
 

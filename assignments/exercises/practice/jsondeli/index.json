@@ -1,0 +1,57 @@
+{
+    "appetizer":[
+        {
+            "app1": "fried pickles"
+        },
+        {
+            "app2": "hummas"
+        },
+        {
+            "app3": "scottish eggs"
+        }
+    ],
+    "cold sandwiches":[
+        {
+            "coldS1": "veggie",
+            "ingredients": ["lettuce", "cheese", "spinach", "olives"],
+            "description": "On the lighter side"
+        },
+        {
+            "coldS2": "blt",
+            "ingredients": ["bacon", "lettuce", "tomato"],
+            "description": "a classic"
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "hotsand1": "meatball sub",
+            "ingredients": ["balls of meat", "sauce", "cheese"],
+            "description": "Itasly between bread"
+        },
+        {
+            "hotsand2": "tuna melt",
+            "ingredients": ["tuna", "melty cheese"],
+            "description": "warm tuna is wierd"
+        }
+    ],
+    "desserts": [
+        {
+            "cake1": "chocolate",
+            "ingredients": ["chocolate", "cake"]
+        },
+        {
+            "cake2": "vanilla",
+            "ingredients": ["vanilla", "cake"]
+        }
+    ],
+    "drinks": [
+        {
+            "hot drinks": "coffee",
+            "types": ["decaf", "half caf", "ectra caf"] 
+        },
+        {
+            "cold drinks": "soda",
+            "types": ["pepsi", "diet pepsi"]
+        }
+    ]    
+}
