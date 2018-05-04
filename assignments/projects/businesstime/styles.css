@@ -65,7 +65,30 @@ bottom: 0;
     right: 250px;
     margin-top: 15px;
 }
-@media (min-width: 500px) {
+@media (min-width: 375px) {
+    .headline {width: 375px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: linen
+    }
+    
+    .clicks {display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 375px;
+        flex-direction: column;
+        margin-top: 15px;
+
+    }
+    .nap
+    .pics
+    #lady
+    .words
+    #pillows
+    .footer
+    #address
+    #email
     html {background: burlywood}
 }
 @media (max-width: 1800px) {
