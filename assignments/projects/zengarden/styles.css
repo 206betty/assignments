@@ -1,0 +1,27 @@
+
+.banner {
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    height: 300px;
+    width: 100%;
+}
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3.2em;
+    text-transform: uppercase;
+
+}
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+}
+#circle {
+    position: absolute;
+    height: 90px;
+    left: 389px;
+    top: 100px;
+}

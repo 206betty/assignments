@@ -9,7 +9,7 @@ var monster3 = "Cake";
 
 var isAlive = true;
 while(isAlive){
-
+walk()
 function walk(){  
     //ask user to push "w" to walk
     var walk = ask.keyIn(`${name}, how many carbs have you had today?, Hit w to walk`, {limit: "w"});
