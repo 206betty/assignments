@@ -1,0 +1,28 @@
+.whole {
+    background-color: lightgray
+}
+.header {
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: 'Barlow', sans-serif;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.details {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-align: justify
+}
+.pics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-template-rows: 400px;pwd
+    
+}
+.spa {
+    
+}
