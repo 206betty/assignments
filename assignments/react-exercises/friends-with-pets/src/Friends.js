@@ -1,68 +1,22 @@
-import React from "react"
+import React from 'react';
+import Pet from './Pets'
 
-const Friends = () => {
+const Friend = (props) => {
 
-    const friend = [  
-        {
-          name: "Ben",
-          age: 29,
-          pets: [
-            {
-              name: "spot",
-              breed: "tabby"
-            },{
-              name: "John Johnson",
-              breed: "husky"
-            },{
-              name: "Bear the bear",
-              breed: "Grizzly"
-            }
-          ]
-        },{
-          name: "Bob",
-          age: 31,
-          pets: [
-            {
-              name: "Sally",
-              breed: "Australian Shepard"
-            }
-          ]
-        },{
-          name: "Marcus",
-          age: 25,
-          pets: [
-            {
-              name: "Indy",
-              breed: "Akita"
-            },{
-              name: "Anna",
-              breed: "persian cat"
-            }
-          ]
-        },{
-          name: "Jacob",
-          age: 20,
-          pets: [
-            {
-              name: "fluffy",
-              breed: "sphynx cat"
-            },{
-              name: "patches",
-              breed: "sphynx cat"
-            },{
-              name: "tiger",
-              breed: "sphynx cat"
-            },{
-              name: "oscar",
-              breed: "sphynx cat"
-            }
-          ]
-        }
-      ]
+    const mappedPets = props.pets.map((pet, i) => {
+        return (
+            <Pet name={pet.name} breed={pet.breed} key={pet.name + i}/>
+        )
+    })
+
     return(
-        <h1></h1>
-    );
+
+        <div>
+            <h1>Name: { props.name }</h1>
+            <h3>Age: {props.age} </h3>
+            <h3> {mappedPets} </h3>
+        </div>
+    )
 }
 
-export default Friends;
-
+export default Friend;

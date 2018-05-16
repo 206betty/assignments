@@ -25,3 +25,56 @@ h2 {
     left: 389px;
     top: 100px;
 }
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+    color: rgb(44, 70, 70);
+}
+p {
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(44, 70, 70);
+    line-height: 2;
+    display: block;
+    
+}
+.participation {
+    background-image: url("http://www.csszengarden.com/214/bamboo.png"), url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/contours.png");
+    background-color: rgba(138,188,159,0.5)
+}
+.contentinfo {
+    background-image: url(http://www.csszengarden.com/214/koi.jpg);
+    height: 300px;
+    margin-bottom: 0%;
+}
+footer {
+    background-color: rgb(20, 58, 62);
+    box-sizing: border-box;
+    font-size: 70%;
+    display: block;
+    height: 200px;
+    margin-top: 0%;
+}
+.t {
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgb(64, 139, 131);
+}
+.b {
+    font-family: 'Libre Baskerville', serif;
+    color: rbg(86 93 77);
+}
+li {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: rgb(184, 195, 187);
+    list-style-type: none;
+}
+.zen-resources {
+    background-image: url("http://www.csszengarden.com/214/bamboo.png"), url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/contours.png");
+    background-color: rgba(138,188,159,0.5);
+}
+.design {
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    border-bottom: rgb(212, 223, 215);
+}
