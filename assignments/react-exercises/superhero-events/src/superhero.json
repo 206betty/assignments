@@ -1,0 +1,14 @@
+{
+    "superHeros": [
+        {
+            "name" "Pinkie"
+            "imgurl" "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBOIWo0klFxGZIzu40-gE_qlYFTICg39NUsfUBA9O-ZtwVv7PW"
+            "catchphrase" "The World is meant to be Pink"
+        },
+        {
+            "name:" "Stinky"
+            "imgurl:" "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsMDvWjoYG_lveIiqMp-G3RK5yJm4N2BFw5FAXvq-GK_GSeYue4w"
+            "catchphrase:" "The World is meant to Stink" 
+        }
+    ]
+}

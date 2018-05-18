@@ -29,6 +29,7 @@ h3 {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 30px;
     color: rgb(44, 70, 70);
+    margin-left: 10%;
 }
 p {
     font-size: 18px;
@@ -36,7 +37,8 @@ p {
     color: rgb(44, 70, 70);
     line-height: 2;
     display: block;
-    
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .participation {
     background-image: url("http://www.csszengarden.com/214/bamboo.png"), url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/contours.png");
@@ -46,6 +48,7 @@ p {
     background-image: url(http://www.csszengarden.com/214/koi.jpg);
     height: 300px;
     margin-bottom: 0%;
+    width: 100%;
 }
 footer {
     background-color: rgb(20, 58, 62);
@@ -72,6 +75,7 @@ li {
 .zen-resources {
     background-image: url("http://www.csszengarden.com/214/bamboo.png"), url("http://www.csszengarden.com/214/contours-opaque.png"), url("http://www.csszengarden.com/214/contours.png");
     background-color: rgba(138,188,159,0.5);
+
 }
 .design {
     display: grid;

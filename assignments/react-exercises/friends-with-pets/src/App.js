@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.js';
 import "./Friendslist.js";
 import "./Friends.js";
 import Friendslist from './Friendslist.js';
 
+
+
 const App = () => {
+  function sayHello (){
+    console.log("hello There")
+  }
   const friend = [  
     {
       name: "Ben",
@@ -65,6 +69,7 @@ const App = () => {
     return (
       <div>
         <Friendslist friends={friend} />
+        <button></bu
       </div>
     );
   }
