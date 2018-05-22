@@ -1,12 +1,13 @@
-import React from "react";
-import Names from "./Names";
+import React from 'react';
+import Display from './Display';
 
 const App = () => {
     return (
-      <div>
-       <h1>What's Up?</h1>
-      </div>
-    );
+        <div>
+            <h1>Basic Greetings</h1>
+            <Display phrase=""/>
+        </div>
+    )
 }
 
 export default App;

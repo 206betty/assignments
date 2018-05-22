@@ -1,0 +1,13 @@
+.mainContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: lightgray;
+}
+.ePic {
+    height: 300px;
+    width: 300px;
+}
+.eName {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
