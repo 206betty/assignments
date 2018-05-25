@@ -8,6 +8,9 @@
     width: 300px;
 }
 .eName {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
 }
