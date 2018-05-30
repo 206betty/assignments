@@ -1,11 +1,14 @@
 import React from "react";
-import { connect } from 'react-redux';
 
     const Home = () => {
     return (
-            <div className="title">
-                <h1>Ready, Set, Inspire!</h1>
+        <div className="homie">
+            <div className="home">
+                <h1>Ready</h1>
+                <h1>Set</h1>
+                <h1>Inspire</h1>
             </div>
+        </div>
         )
     }
 export default Home;
