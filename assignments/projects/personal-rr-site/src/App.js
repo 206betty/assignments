@@ -6,6 +6,7 @@ import Home from "./component/Home";
 import Quotes from "./component/Quotes";
 import Favorites from "./component/Favorites";
 
+
 const App = () => {
     return (
         <div>

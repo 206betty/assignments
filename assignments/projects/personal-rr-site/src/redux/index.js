@@ -8,7 +8,6 @@ const initialState = {
         quoteAuthor: ''
     }
 }
-
 export const getData = () => {
     return dispatch => {
         axios.get('https://vschool-cors.herokuapp.com?url=http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en').then(response => {
@@ -21,7 +20,6 @@ export const getData = () => {
         })
     }
 }
-
 const reducer = (state = initialState, action) => {
     switch(action.type){
         case "GET_DATA":
@@ -32,7 +30,6 @@ const reducer = (state = initialState, action) => {
             return state    
     }
 }
-
  const store = createStore(reducer, applyMiddleware(thunk))
 
  export default store;

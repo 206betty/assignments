@@ -17,11 +17,9 @@ class Quotes extends React.Component {
         console.log(this.props.data.quoteText)
         return (
     <div>
-            <div className="q">
+            <div className="q">   
                 <h3 className="quote"> { this.props.data.quoteText } </h3>
                 <h3 className="by">By: { this.props.data.quoteAuthor } </h3>
-            </div>
-            <div className="buttonHome">
                 <button type="submit" onClick={refreshPage} className="button" >New Quote</button>
             </div>
     </div>
