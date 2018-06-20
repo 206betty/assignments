@@ -9,17 +9,6 @@ const express = require('express')
      })
  })
 
- chakraRouter.post('/:id/comments', (req,res) => {
-     chakra.findByIdAndUpdate(
-         req.params.id,
-         {$push: {comments: req.body}},
-         {new: true}, (err, updatedChakra) => {
-             if(err) return res.status(500).send(err)
-             return res.chakra(updatedChakra)
-         }
-     )
- })
-
  chakraRouter.post('/', (req, res) => {
     const newChakra = new chakra(req.body)
     newChakra.save((err, newChakra) => {

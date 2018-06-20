@@ -4,8 +4,6 @@ import { getProgress, addProgress } from './redux'
 import Date from './date'
 import Progress from './progress'
 
-
-
 class App extends React.Component {
     constructor() {
         super();
