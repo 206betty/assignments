@@ -3,7 +3,7 @@ import React from "react"
 const Seven = () => {
     return (
     <div>
-
+        fucking hell
     </div>
     )
 }

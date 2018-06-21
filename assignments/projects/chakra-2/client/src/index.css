@@ -1,16 +1,29 @@
-.date {
-    display: grid;
-    height: 200px;
-    font-size: 60px;
+
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
-.dropbox {
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: gold;
-    width: 100px;
+.banner {
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
-.journal {
-    display: grid;
-    height: 200px;
-    font-size: 60px;
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 50px;
+    border-bottom: 3px solid;
+    margin-bottom: 10px; 
+}
+.home {
+    text-decoration: none;
+    color: black
+}
+.seven {
+    text-decoration: none;
+    color: black
+}
+.track {
+    text-decoration: none;
+    color: black
 }
