@@ -1,12 +1,14 @@
 import React from 'react'
 import { deleteChakra, editChakra } from './redux'
 import { connect } from 'react-redux'
+import Date from './Date'
 
 class Progress extends React.Component {
     constructor() {
         super()
         this.state = {
             description: '',
+            date: '',
             isToggled: false,
         }
         this.handleChange = this.handleChange.bind('this')
@@ -22,10 +24,11 @@ class Progress extends React.Component {
     handleSubmit = e => {
         e.preventDefault()
         const newChakra = {
-            description: this.state.description
+            description: this.state.description,
+            date: this.state.date
         }
         this.props.editChakra( this.props.id, newChakra)
-        this.setState({isToggled:false, description: ''})
+        this.setState({isToggled:false, description: '', date: ''})
     }
 
     toggle = () => {
@@ -41,7 +44,7 @@ class Progress extends React.Component {
         return (
             <div>
                 <p> { this.props.description } </p>
-
+                <p> { this.props.date } </p>
                 <button onClick={ () => this.props.deleteChakra(this.props.id) } >Delete</button>
                 <button onClick={ this.toggle } >Edit</button>
                 { this.state.isToggled
@@ -52,6 +55,7 @@ class Progress extends React.Component {
                         name="description"
                         placeholder="description"
                         onChange={ this.handleChange }/>
+                    <Date />
                         <button>Submit</button>
                 </form>
                 : null

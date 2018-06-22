@@ -30,9 +30,10 @@ class Track extends React.Component {
     }
     render(){
     return (
-    <div>
+    <div className="trackPage">
     <div className="date">
-            <Date />
+            <Date className="dateBox"/ >
+            <p>Select Date</p>
         </div>
         <div className="dropbox">
             <select>
@@ -40,7 +41,8 @@ class Track extends React.Component {
                     <option value="1">Massage</option>
                     <option value="2">Meditation</option>
                     <option value="3">Breath Work</option>
-            </select>  
+            </select>
+            <p>Select Activity</p>
         </div>
         <div className="journal">
             <form onSubmit={ this.handleSubmit }>
@@ -49,14 +51,13 @@ class Track extends React.Component {
                     name="description"
                     placeholder="Journal Your Progress"
                     onChange={ this.handleChange } />
-                    <button>Submit</button>
+                    <button className="submitBtn">Submit</button>
                     </form>
                     <h3> { this.props.description } </h3>
             {this.props.Chakra.map(chakra => 
             <Progress key={chakra._id} id={chakra._id} 
             description={ chakra.description }/>)}  
         </div>   
-
     </div>
     )
 }

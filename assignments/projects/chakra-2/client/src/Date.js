@@ -13,15 +13,15 @@ class Date extends React.Component {
       this.handleChange = this.handleChange.bind('this');
     }
    
-    handleChange(date) {
+    handleChange = (date) => {
       this.setState({
-        startDate: date
+        date
       });
     }
    
     render() {
       return <DatePicker
-          selected={this.state.startDate}
+          selected={this.state.date}
           onChange={this.handleChange}
       />;
     }

@@ -5,7 +5,7 @@ class Home extends Component {
     constructor(props) {
         super(props);
     
-        this.state = {isOpen: false };
+        this.state = {isOpen: false, isOpen2: false, isOpen3: false};
     }
 
     toggleModal = () => {
@@ -13,12 +13,24 @@ class Home extends Component {
           isOpen: !this.state.isOpen
         });
       }
+
+      toggleModal2 = () => {
+        this.setState({
+          isOpen2: !this.state.isOpen2
+        });
+      }
+
+      toggleModal3 = () => {
+        this.setState({
+          isOpen3: !this.state.isOpen3
+        });
+      }
     
       render() {
         return (
-        <div>
+        <div className="homePage">
           <div className="what">
-            <button onClick={this.toggleModal}>
+            <button className="whatBtn" onClick={this.toggleModal}>
               What is chakra balancing?
             </button>
             <Modal show={this.state.isOpen}
@@ -31,12 +43,12 @@ class Home extends Component {
             </Modal>
           </div>
           <div className="how">
-            <button onClick={this.toggleModal}>
+            <button className="howBtn" onClick={this.toggleModal2}>
               How to balance chakras.
             </button>
     {/* this.state. === what how why */}
-            <Modal show={this.state.isOpen}
-              onClose={this.toggleModal}>
+            <Modal show={this.state.isOpen2}
+              onClose={this.toggleModal2}>
               `Chakra balancing techniques fall into in three categories: Those centered on a physical process or activity, a meditative or introspective practice, and the transmission of energy from another person or on your own.
             
             Common practices you can use to balance your chakras:
@@ -48,11 +60,11 @@ class Home extends Component {
             </Modal>
           </div>
           <div className="why">
-            <button onClick={this.toggleModal}>
+            <button className="whyBtn" onClick={this.toggleModal3}>
               Why balance your chakras?
             </button>
-            <Modal show={this.state.isOpen}
-              onClose={this.toggleModal}>
+            <Modal show={this.state.isOpen3}
+              onClose={this.toggleModal3}>
               `The purpose of chakra balancing is to support a balanced flow that will sustain our overall level of energy. In our everyday life,we are subjected to a number of activities, sources of stress and demands that result in fluctuations in our energy level. Some may feel draining, others fulfilling or nourishing. Furthermore, past events and experiences often leave a long lasting influence on how we feel and are in the world,therefore influencing how we manage our energy day-to-day.
 
               Stresses placed on us by the demands of life may result in interruptions and fluctuations in our energy flow and chakra imbalances. A chakra imbalance can affect:
