@@ -1,0 +1,236 @@
+
+* {
+    font-family: 'IBM Plex Mono', monospace;
+}
+.banner {
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 50px;
+    border-bottom: 3px solid;
+    margin-bottom: 10px; 
+}
+.home {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.track {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.bigbtns {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    margin-top: 80px;
+}
+.whatBtn {
+    border: 3px solid rbg(106, 179, 229);
+    height: 80px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgba(232, 229, 171);
+    position: relative;
+    left: 35px;
+}
+.howBtn {
+    border: 3px solid rbg(106, 179, 229);
+    height: 80px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgba(232, 229, 171);
+    position: relative;
+    left: 35px;
+    margin-top: 20px;
+}
+.whyBtn {
+    border: 3px solid rbg(106, 179, 229);
+    height: 80px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgba(232, 229, 171);
+    position: relative;
+    left: 35px;
+    margin-top: 20px;
+}
+.allChakra {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 35px;
+    align-items: center;
+    grid-gap: 5px;
+}
+.crown {
+    background-color: rgb(166, 132, 190);
+    border: 2px solid;
+}
+.thirdEye {
+    background-color: rgb(112, 112, 181);
+    border: 2px solid 
+}
+.throat {
+    background-color: rgb(58, 147, 217);
+    border: 2px solid 
+}
+.heart {
+    background-color: rgb(130, 199, 125);
+    border: 2px solid 
+}
+.solar {
+    background-color: rgb(229, 211, 94);
+    border: 2px solid 
+}
+.sacral {
+    background-color: rgb(228, 182, 128);
+    border: 2px solid 
+}
+.root {
+    background-color: rgb(207, 95, 81);
+    border: 2px solid;
+    grid-row: 3;
+    grid-column: 2
+}
+.colors {
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+.trackPage {
+    margin-top: 20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AuDH86IjJ4eXosgo7ZS77a2tDTwCJKWvLFZ4fun51EtdO1dR");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+    text-align: center;
+}
+@media screen and (min-width: 1300px) {
+   .banner {
+       width: 1100px;
+       height: 200px;
+       position: relative;
+       left: 200px;
+   }
+   .home {
+       font-size: 30px;
+   }
+   .track {
+       font-size: 30px;
+   }
+   .what {
+       position: relative;
+       left: 450px;
+   }
+   .how {
+        position: relative;
+        left: 450px;
+   }
+   .why {
+        position: relative;
+        left: 450px;
+   }
+   .whatBtn {
+       background-color: aquamarine;
+       border: 3px solid rbg(106, 179, 229);
+       height: 100px;
+       width: 500px;
+       font-size: 30px;
+       font-weight: bold;
+       border-radius: 50%;
+       margin-top: 20px;
+   }
+   .howBtn {
+    background-color: aquamarine;
+    border: 3px solid rbg(106, 179, 229);
+    height: 100px;
+    width: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-top: 20px;
+   }
+   .whyBtn {
+    background-color: aquamarine;
+    border: 3px solid rbg(106, 179, 229);
+    height: 100px;
+    width: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-top: 20px;
+   }
+   .allChakra {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    margin-top: 30px;
+    align-items: center;
+    grid-gap: 10px;
+    position: relative;
+    left: 550px;
+}
+.crown {
+    background-color: rgb(166, 132, 190);
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    font-weight: bold
+}
+.thirdEye {
+    background-color: rgb(112, 112, 181);
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    font-weight: bold 
+}
+.throat {
+    background-color: rgb(58, 147, 217);
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    font-weight: bold 
+}
+.heart {
+    background-color: rgb(130, 199, 125);
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    font-weight: bold 
+}
+.solar {
+    background-color: rgb(229, 211, 94);
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    font-weight: bold 
+}
+.sacral {
+    background-color: rgb(228, 182, 128);
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    font-weight: bold 
+}
+.root {
+    background-color: rgb(207, 95, 81);
+    border: 2px solid;
+    position: relative;
+    left: 110px;
+    height: 100px;
+    width: 100px;
+    font-weight: bold
+}
+}
